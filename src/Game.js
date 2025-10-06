@@ -94,7 +94,8 @@ export default function Game() {
             Sort: {ascending ? 'Ascending' : 'Descending'}
           </button>
         </div>
-        <ol>{sortedMoves}</ol>// chứa danh sách các bước lịch sử
+        <ol>{sortedMoves}</ol>
+        {/* chứa danh sách các bước lịch sử */}
       </div>
     </div>
   );
