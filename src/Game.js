@@ -95,7 +95,7 @@ export default function Game() {
           </button>
         </div>
         <ol>{sortedMoves}</ol>
-        {/* chứa danh sách các bước lịch sử */}
+      
       </div>
     </div>
   );
