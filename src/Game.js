@@ -65,7 +65,7 @@ export default function Game() {
 
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{desc}</button>// nút để quay lại bước lịch sử
+        <button onClick={() => jumpTo(move)}>{desc}</button>
       </li>
     );
   });
